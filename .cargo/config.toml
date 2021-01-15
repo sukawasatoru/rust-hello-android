@@ -1,0 +1,7 @@
+[target.armv7-linux-androideabi]
+ar = "/opt/android-sdk-linux/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar"
+linker = "/opt/android-sdk-linux/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi28-clang"
+
+[target.x86_64-linux-android]
+ar = "/opt/android-sdk-linux/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android-ar"
+linker = "/opt/android-sdk-linux/ndk/22.0.7026061/toolchains/llvm/prebuilt/linux-x86_64/bin/x86_64-linux-android28-clang"

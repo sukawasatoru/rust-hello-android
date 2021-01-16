@@ -34,3 +34,5 @@ ENV RUSTUP_HOME=/opt/rustup
 COPY --from=rust $CARGO_HOME $CARGO_HOME
 COPY --from=rust $RUSTUP_HOME $RUSTUP_HOME
 RUN chmod -R a+w $CARGO_HOME $RUSTUP_HOME
+
+LABEL org.opencontainers.image.source https://github.com/sukawasatoru/rust-hello-android

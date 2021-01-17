@@ -25,9 +25,8 @@ RUN set -o pipefail && \
   thumbv7neon-linux-androideabi \
   x86_64-linux-android
 
-FROM ghcr.io/sukawasatoru/toolchain-android:1.0
+FROM ghcr.io/sukawasatoru/toolchain-android:1.1
 ARG DEBIAN_FRONTEND=noninteractive
-RUN sdkmanager 'ndk;22.0.7026061'
 ENV CARGO_HOME=/opt/cargo
 ENV PATH=$CARGO_HOME/bin:$PATH
 ENV RUSTUP_HOME=/opt/rustup

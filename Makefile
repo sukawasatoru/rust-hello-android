@@ -34,4 +34,4 @@ clean:
 BUILD_DOCKER_LABEL=latest
 .PHONY: build-docker
 build-docker:
-	cd docker && docker build --build-arg RUST_VERSION=1.49.0 -t ghcr.io/sukawasatoru/toolchain-android-rust:$(BUILD_DOCKER_LABEL) .
+	cd docker && docker build --build-arg RUST_VERSION=1.79.0 -t ghcr.io/sukawasatoru/toolchain-android-rust:$(BUILD_DOCKER_LABEL) .
